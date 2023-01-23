@@ -1,5 +1,11 @@
 #include "sort.h"
 
+/**
+* selection_sort - sorts an array using selection sort algo.
+*
+* @array: array of integer to sort
+* @size: size of the array
+*/
 void selection_sort(int *array, size_t size)
 {
 	int min, t, index;
